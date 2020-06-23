@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
         width: 160,
     },
     btn: {
-        background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+        background: "#0066ff",
         color: "white",
         textTransform: "lowercase",
     },
@@ -133,8 +133,8 @@ const Order = () => {
         label = "Loại hàng hóa" >
         <
         MenuItem value = { "topup" } > Nạp tiền điện thoại < /MenuItem>{" "} <
-        MenuItem value = { "billpayment" } > Thanh toán hóa đơn < /MenuItem>{" "} <
-        MenuItem value = { "fashion" } > Thời trang < /MenuItem>{" "} <
+        MenuItem value = { "billpayment" } > Thanh toán điện nước < /MenuItem>{" "} <
+        MenuItem value = { "fashion" } > Nạp thẻ game < /MenuItem>{" "} <
         /Select>{" "} <
         /FormControl>{" "} <
         /div>{" "} <
